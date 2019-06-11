@@ -1,9 +1,11 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 const add = (a, b) => {
-  const c = 5;
+  const c = 12;
   return a + b + c;
 };
+let answer = add(2, 3);
+console.log(answer);
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
@@ -13,7 +15,7 @@ var counter = 0;
 function count() {
   // Return a function that when invoked increments and returns a counter variable.
   counter += 1;
-};
+}
 // Example usage: const newCounter = counter();
 // newCounter(); // 1
 // newCounter(); // 2
